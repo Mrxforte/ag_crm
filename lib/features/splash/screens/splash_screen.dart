@@ -30,16 +30,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text(
-          "HILTI",
-          style: GoogleFonts.playwriteFrModerne(
-            fontSize: 30,
-            color: Colors.red,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-      ),
+      body: Center(child: Image.asset("assets/images/logo.png", height: 200)),
     );
   }
 }
